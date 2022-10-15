@@ -1,0 +1,128 @@
+* {
+  font-family: "Overpass", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+* body {
+  background-color: hsl(216deg, 12%, 8%);
+  color: hsl(217deg, 12%, 63%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* body main {
+  box-sizing: border-box;
+  display: flex;
+}
+* body main .card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-color: hsl(213deg, 19%, 18%);
+  padding: 1.5rem 1.5rem 2rem 1.5rem;
+  border-radius: 15px;
+}
+* body main .card img.star {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: hsl(210deg, 19%, 21%);
+  border-radius: 50%;
+  padding: 0.6rem;
+}
+* body main .card img.center {
+  align-self: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+* body main .card h1 {
+  font-size: 1.5rem;
+  color: hsl(0deg, 0%, 100%);
+  margin: 1rem 0;
+}
+* body main .card h2 {
+  font-size: 1.8rem;
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+* body main .card p {
+  line-height: 1.5rem;
+}
+* body main .card p.orange-text {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  color: hsl(25deg, 97%, 53%);
+  text-align: center;
+  background-color: hsl(210deg, 19%, 21%);
+  padding: 0.5rem 1.5rem 0.1rem 1.5rem;
+  border-radius: 25px;
+}
+* body main .card p.center {
+  text-align: center;
+  padding: 0 0.2rem;
+}
+* body main .card ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0 1.5rem 0;
+}
+* body main .card ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.8rem;
+  height: 2.8rem;
+  font-size: 0.9rem;
+  background-color: hsl(210deg, 19%, 21%);
+  border-radius: 50%;
+}
+* body main .card ul li.selected {
+  background-color: hsl(216deg, 12%, 54%);
+  color: hsl(0deg, 0%, 100%);
+}
+* body main .card ul li:hover {
+  cursor: pointer;
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+* body main .card button {
+  width: 100%;
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  padding: 0.9rem 0;
+}
+* body main .card button:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  cursor: pointer;
+}
+
+@media (min-width: 720px) {
+  * {
+    font-size: 18px;
+  }
+  * body main .card {
+    width: 400px;
+  }
+  * body main .card p {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=style.css.map */
