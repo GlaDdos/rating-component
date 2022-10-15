@@ -45,7 +45,7 @@
 * body main .card h1 {
   font-size: 1.5rem;
   color: hsl(0deg, 0%, 100%);
-  margin: 1rem 0;
+  margin: 3rem 0 0.5rem 0;
 }
 * body main .card h2 {
   font-size: 1.8rem;
@@ -75,7 +75,7 @@
 * body main .card ol {
   display: flex;
   justify-content: space-between;
-  margin: 1.5rem 0 1.5rem 0;
+  margin: 1rem 0 1.5rem 0;
 }
 * body main .card ol li {
   display: flex;
