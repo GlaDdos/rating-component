@@ -2,7 +2,7 @@ const selection_list = document.getElementById('selection-list');
 const submit_button = document.getElementById('submit-button');
 
 selection_list.onclick = function(event) {
-    if(event.target.value){
+    if(event.target.attributes[0].value){
         let selection = selection_list.getElementsByClassName('selected');
         selection[0].classList.remove('selected');
         event.target.classList.add('selected');
@@ -21,7 +21,7 @@ submit_button.onclick = function(event) {
 
 function getSelectedValue() {
     const selection = selection_list.getElementsByClassName('selected');
-    return selection[0].value;
+    return selection[0].attributes[0].value;
 }
 
 function setRating() {

@@ -77,7 +77,7 @@
   justify-content: space-between;
   margin: 1.5rem 0 1.5rem 0;
 }
-* body main .card ul li {
+* body main .card ul ol {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,11 +87,11 @@
   background-color: hsl(210deg, 19%, 21%);
   border-radius: 50%;
 }
-* body main .card ul li.selected {
+* body main .card ul ol.selected {
   background-color: hsl(216deg, 12%, 54%);
   color: hsl(0deg, 0%, 100%);
 }
-* body main .card ul li:hover {
+* body main .card ul ol:hover {
   cursor: pointer;
   background-color: hsl(25deg, 97%, 53%);
   color: hsl(0deg, 0%, 100%);
@@ -122,7 +122,7 @@
   * body main .card {
     width: 400px;
   }
-  * body main .card p {
+  * body main .card p, * body main .card p span {
     font-size: 0.8rem;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -86,7 +86,7 @@ $very-dark-blue: hsl(216, 12%, 8%);
               justify-content: space-between;
               margin: 1.5rem 0 1.5rem 0;
 
-              li {
+              ol {
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -144,8 +144,10 @@ $very-dark-blue: hsl(216, 12%, 8%);
         .card {
           width: 400px;
 
-          p {
+          p, p span {
             font-size: 0.8rem;
+
+            
           }
         }
       }
